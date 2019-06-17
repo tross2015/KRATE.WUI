@@ -23,8 +23,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Pages\Send.cshtml.csabout" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Pages\Send.cshtml.csabout" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
   </ItemGroup>
 
 </Project>

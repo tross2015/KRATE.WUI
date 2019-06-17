@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace KRATE.WUI.Pages
 {
-    public class SendModel : PageModel
+    public class ReceiveModel : PageModel
     {
         public void OnGet()
         {

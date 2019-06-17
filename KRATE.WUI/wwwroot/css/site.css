@@ -3038,3 +3038,7 @@ input:checked + .slider:before {
     .slider.round:before {
         border-radius: 50%;
     }
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    border: 0;
+}
